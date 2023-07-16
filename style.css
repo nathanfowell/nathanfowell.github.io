@@ -34,7 +34,8 @@ header {
         display: flex;
         background-color: white;
         border: none;
-        margin-right: 50px
+        cursor: pointer;
+        margin-right: 50px;
       }
 
       .dropbtn img {
@@ -73,6 +74,7 @@ header {
       .dropdown:hover .dropdown-content {display: block;}
       
       .dropdown:hover .dropbtn {color: rgb(95, 42, 42);}
+
 
 main {
     margin-bottom: 0px;
@@ -168,8 +170,9 @@ footer {
 
           .dropdown-content {
             font-size: 4vw;
+            margin-left: -15vw;
           }
-
+          
     main .titles {
         width: 98vw;
     }
