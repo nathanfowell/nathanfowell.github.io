@@ -15,11 +15,9 @@ html, body {
 header {
     z-index: 10;
     width: 100%;
-    padding: 25px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 2vw;
     font-family: 'Louis George Cafe';
-    font-size: 35px;
+    font-size: 1.75vw;
     position: fixed;
     top: 0;
     background-color: white;
@@ -41,7 +39,7 @@ header {
       }
 
       .dropbtn img {
-        height: 20px;
+        height: 1.75vw;
         cursor: pointer;
       }
       
@@ -58,7 +56,7 @@ header {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         margin-left: -100px;
-        font-size: 23px;
+        font-size: 2vw;
         padding-top: 20px;
         box-shadow: none;
       }
@@ -76,12 +74,6 @@ header {
       .dropdown:hover .dropdown-content {display: block;}
       
       .dropdown:hover .dropbtn {color: rgb(95, 42, 42);}
-
-      a {
-        font-family: Louis George Cafe;
-          color: black;
-          font-family: Tommy Soft;
-      }
 
 .cover video {
     margin-top: 70px;
@@ -144,3 +136,24 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     }
+
+@media (orientation: portrait) {
+
+        header {
+          padding: 4vw;
+          font-size: 4vw;
+          }
+      
+          .dropbtn {
+              margin-right: 7vw;
+            }
+      
+            .dropbtn img {
+              height: 4vw;
+            }
+            
+            .dropdown-content {
+              font-size: 4vw;
+            }
+      
+}
