@@ -16,8 +16,10 @@ header {
     z-index: 10;
     width: 100%;
     padding: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-family: 'Louis George Cafe';
-    font-size: 20px;
+    font-size: 25px;
     position: fixed;
     top: 0;
     background-color: white;
@@ -68,13 +70,18 @@ header {
         display: block;
       }
       
-      a:hover {color: rgb(251, 150, 27);}
-      a:active {color: rgb(133, 80, 15)}
+      a:hover {color: rgb(82, 197, 255);}
+      a:active {color: rgb(0, 170, 255)}
       
       .dropdown:hover .dropdown-content {display: block;}
       
       .dropdown:hover .dropbtn {color: rgb(95, 42, 42);}
 
+      a {
+        font-family: Louis George Cafe;
+          color: black;
+          font-family: Tommy Soft;
+      }
 
 .cover img {
     margin-top: 70px;
@@ -147,56 +154,3 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-@media (orientation: portrait) {
-
-    header {
-        padding: 5%;
-        font-size: 4vw;
-        }
-    
-        .dropbtn {
-            margin-right: 8vw;
-            margin-top: 0.1vh;
-          }
-    
-          .dropbtn img {
-            width: 2.5vh;
-            height: auto;
-          }  
-
-          .dropdown-content {
-            font-size: 4vw;
-            margin-left: -15vw;
-          }
-          
-    .cover img {
-        margin-top: 15%;
-        height: 40vh;
-    }
-    
-    h1 {
-            font-size: 10vw;
-            top: -15vh;
-            padding: 8vw;
-        }
-    
-    main {
-        top: -12vh;
-        width: 95%;
-        }
-    
-        .media {
-            width: 98%;
-        }
-
-        .project_text {
-            position: static;
-            top: 0;
-            font-size: 3.5vw;
-        }
-
-    footer {
-            font-size: 3.5vw;
-        }
-    }
