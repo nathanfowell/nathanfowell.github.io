@@ -168,4 +168,51 @@ footer {
         font-size: 4vw;
       }
 
+.cover-container {
+        height: 50vw;
+      }
+      
+      .cover img {
+          height: 45vw;
+      }
+      
+      .cover h1 {
+              width: 60%;
+              padding: 4vw;
+              font-size: 6vw;
+              top: 27vw;
+              left: 16%;
+          }
+      
+      main {
+          width: 80%;
+          margin: auto;
+          font-size: 4vw;
+          }
+      
+      .grid-container {
+              grid-template-columns: 100%;
+            }
+      
+        .grid-container2 {
+              grid-template-columns: 100%;
+            }
+
+            .grid-item {
+              text-align: center;
+          }
+    
+          .grid-item p {
+            text-align: left;
+          }      
+          
+          footer {
+          font-family: 'Tommy Soft';
+          font-weight: lighter;
+          background-color: white;
+          width: 100%;
+          padding-top: 20px;
+          padding-bottom: 20px;
+      }
+
 }

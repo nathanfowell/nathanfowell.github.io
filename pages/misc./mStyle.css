@@ -75,68 +75,75 @@ header {
       
       .dropdown:hover .dropbtn {color: rgb(95, 42, 42);}
 
-.cover img {
-    margin-top: 70px;
-    object-fit: cover;
-    height: 40vh;
-    width: 100%;
-}
-
-h1 {
-        position: relative;
-        width: 40%;
-        margin: auto;
-        padding: 2rem;
-        top: -120px;
-        text-align: center;
-        text-overflow: initial;
+      .cover-container {
         font-family: 'Louis George Cafe';
-        font-weight: lighter;
-        font-size: 3.5rem;
-        background-color: white;
-    }
-
-main {
-    position: relative;
-    top: -120px;
-    width: 70%;
-    margin: auto;
-    font-family: 'Louis George Cafe';
-    font-size: larger;
-    }
-
-    .segment {
-        position: relative;
-        min-height: 360px;
-    }
-
-    .media {
-        width: 50%;
-    }
-
-    .media iframe {
-        margin: 1%;
+        height: 30vw;
         width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 9;
-    }
-    .media img {
-        margin: 1%;
-        width: 100%;
-    }
+      }
+      
+      .cover img {
+          position: absolute;
+          z-index: 1;
+          width: 100%;
+          height: 25vw;
+          object-fit: cover;
+      }
+      
+      .cover h1 {
+              position: absolute;
+              width: 40%;
+              padding: 2vw;
+              text-align: center;
+              font-size: 4vw;
+              background-color: white;
+              z-index: 2;
+              top: 14vw;
+              left: 28%;
+          }
+      
+    main {
+        width: 80%;
+        margin: auto;
+        font-family: 'Louis George Cafe';
+        font-size: 1.4vw;
+        }
+    
+      .grid-container {
+            display: grid;
+            grid-template-columns: 50% 40%;
+            gap: 2vw;
+          }
+    
+    .grid-container2 {
+            display: grid;
+            grid-template-columns: 40% 50%;
+            gap: 2vw;
+          }
+        
+          .grid-item {
+            text-align: right;
+          }
 
-    .project_text {
-        position: absolute;
-        left: 52%;
-        top: 0;
-        margin: 10px;
-    }
-
+          .grid-item img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+          }    
+        
+          .grid-item iframe {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            aspect-ratio: 16 / 9;
+          }    
+    
 hr {
     height: 2px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     border-width: 0;
     background-color:black;
-}
+    }
 
 footer {
     font-family: 'Tommy Soft';
@@ -164,6 +171,52 @@ footer {
         
         .dropdown-content {
           font-size: 4vw;
+        }
+        .cover-container {
+          height: 50vw;
+        }
+        
+        .cover img {
+            height: 45vw;
+        }
+        
+        .cover h1 {
+                width: 60%;
+                padding: 4vw;
+                font-size: 6vw;
+                top: 27vw;
+                left: 16%;
+            }
+        
+        main {
+            width: 80%;
+            margin: auto;
+            font-size: 4vw;
+            }
+        
+        .grid-container {
+                grid-template-columns: 100%;
+              }
+        
+          .grid-container2 {
+                grid-template-columns: 100%;
+              }
+
+.grid-item {
+      text-align: center;
+  }
+
+  .grid-item p {
+    text-align: left;
+  }
+                        
+        footer {
+            font-family: 'Tommy Soft';
+            font-weight: lighter;
+            background-color: white;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
   
 }
