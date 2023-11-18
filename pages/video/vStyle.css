@@ -75,60 +75,64 @@ header {
       
       .dropdown:hover .dropbtn {color: rgb(95, 42, 42);}
 
-.cover video {
-    margin-top: 70px;
-    object-fit: cover;
-    height: 40vh;
-    width: 100%;
-    }
-        
-    h1 {
-        position: relative;
-        width: 40%;
-        margin: auto;
-        padding: 2rem;
-        top: -120px;
-        text-align: center;
-        text-overflow: initial;
+.cover-container {
         font-family: 'Louis George Cafe';
-        font-weight: lighter;
-        font-size: 3.5rem;
-        background-color: white;
+        height: 30vw;
+        width: 100%;
+      }
+      
+      .cover video {
+          position: absolute;
+          z-index: 1;
+          width: 100%;
+          height: 25vw;
+          object-fit: cover;
+      }
+
+    .cover h1 {
+      position: absolute;
+      width: 40%;
+      padding: 2vw;
+      text-align: center;
+      font-size: 4vw;
+      background-color: white;
+      z-index: 2;
+      top: 14vw;
+      left: 28%;
     }
 
-    main {
-        position: relative;
-        top: -100px;
-        margin: 4%;
-        width: 90%;
-        margin: auto;
-        font-family: 'Louis George Cafe';
-        font-size: larger;
-        }
+main {
+      width: 80%;
+      margin: auto;
+      font-family: 'Louis George Cafe';
+      font-size: 1.4vw;
+      }
+  
+    .grid-container {
+      margin-top: 0vw;
+      display: grid;
+      grid-template-columns: 40% 60%;
+      gap: 2vw;
+    }
+  
+    .grid-item {
+      text-align: right;
+    }
+  
+    .grid-item iframe {
+      height: 100%;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+    }    
     
-        .segment{
-            min-height: 320px;
-        }
-
-        main iframe {
-            margin: 5px;
-            width: 60%;
-            aspect-ratio: 16 / 9;
-        }
-        
-        main .project_text {
-            position: absolute;
-            display: inline-block;
-            margin-top: 10px;
-            margin-left: 35px;
-        }
-
-hr {
-    height: 2px;
-    border-width: 0;
-    background-color:black
-}
-
+    hr {
+      height: 2px;
+      margin-top: 3vw;
+      margin-bottom: 3vw;
+      border-width: 0;
+      background-color:black;
+  }
+  
 footer {
     font-family: Tommy Soft;
     font-weight: lighter;
@@ -154,6 +158,53 @@ footer {
             
             .dropdown-content {
               font-size: 4vw;
+            }
+            
+.cover-container {
+              height: 50vw;
+            }
+            
+            .cover video {
+                height: 45vw;
+            }
+            
+            .cover h1 {
+                    width: 60%;
+                    padding: 4vw;
+                    font-size: 6vw;
+                    top: 27vw;
+                    left: 16%;
+                }
+            
+            main {
+                width: 80%;
+                margin: auto;
+                font-size: 4vw;
+                }
+            
+            .grid-container {
+                    grid-template-columns: 100%;
+                  }
+            
+              .grid-container2 {
+                    grid-template-columns: 100%;
+                  }
+
+    .grid-item {
+          text-align: center;
+      }
+
+      .grid-item p {
+        text-align: left;
+      }
+                            
+            footer {
+                font-family: 'Tommy Soft';
+                font-weight: lighter;
+                background-color: white;
+                width: 100%;
+                padding-top: 20px;
+                padding-bottom: 20px;
             }
       
 }
