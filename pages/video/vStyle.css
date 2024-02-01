@@ -133,13 +133,12 @@ main {
       background-color:black;
   }
   
-footer {
+  footer {
     font-family: Tommy Soft;
-    font-weight: lighter;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    }
+    background-color: white;
+    padding: 4vw;
+    text-align: center;
+}
 
 @media (orientation: portrait) {
 
@@ -198,13 +197,4 @@ footer {
         text-align: left;
       }
                             
-            footer {
-                font-family: 'Tommy Soft';
-                font-weight: lighter;
-                background-color: white;
-                width: 100%;
-                padding-top: 20px;
-                padding-bottom: 20px;
-            }
-      
 }
