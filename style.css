@@ -189,7 +189,7 @@ h2 {
 
     .main-grid-item {
       font-family: Tommy Soft;
-      font-size: 4vw;
+      font-size: 3vw;
       display: block;
       margin: auto;
       position: relative;
@@ -354,7 +354,7 @@ h2 {
   }
 
   .contact-grid-item p {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 }
